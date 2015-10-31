@@ -5,5 +5,5 @@
   tasks:
     - name: git deploy
       git:
-        repo={{ repo }}
+        repo={{ repo_url }}
         dest=/tmp/deploydir
