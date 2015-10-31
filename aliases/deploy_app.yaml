@@ -1,6 +1,6 @@
 ---
 name: chatops.ansible_deploy_app
-action_ref: st2-chatops-aliases.update_package
+action_ref: st2-ansible-aliases.update_package
 description: Update package on remote hosts
 formats:
   - "update {{repo_url}} on {{hosts}}"
