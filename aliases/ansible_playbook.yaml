@@ -4,4 +4,4 @@ action_ref: "ansible.playbook"
 description: "Run ansible playbook"
 # how do the args work?
 formats:
-  - "ansible-playbook {{args}}"
+  - "ansibleplaybook {{args}}"
